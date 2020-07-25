@@ -1,0 +1,9 @@
+İdman Programi...
+Pushup Sayisi : 40
+Situp Sayisi : 40
+Squat Sayisi : 40
+
+1.Hareket : Situp Tekrar Sayisi : 15
+2.Hareket : Pushup Tekrar Sayisi : 150
+3.Hareket : Squat Tekrar Sayisi : 770
+4.Hareket : Situp Tekrar Sayisi : 1400

@@ -1,0 +1,11 @@
+SELECT * FROM x = Tum Tabloyu Getirir
+
+UPDATE x SET y WHERE (conditions) = Tabloda İstenilen Yeri Gunceller
+
+INSERT INTO x (attribute1,attribute2,attribute3,...) VALUES (attribute1,attribute2,attribute3,...) = Tabloya veri eklemede kullanılır
+
+DELETE FROM x WHERE (conditions) = Tabloda İstenilen Yeri siler
+
+CONDİTİONS : 
+
+LIKE = bir metnin aranan harfi kelimeyi vs içermesi

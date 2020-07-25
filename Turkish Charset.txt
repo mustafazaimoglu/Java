@@ -1,0 +1,3 @@
+DOS : "IBM857" Charset CHARTSET = Charset.forName("IBM857");
+Windows-1254
+ISO-8859-9 

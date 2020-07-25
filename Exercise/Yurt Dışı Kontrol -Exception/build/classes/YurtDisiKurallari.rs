@@ -1,0 +1,4 @@
+VizeException
+YurtDisiKurallari
+HarcException
+SiyasiException

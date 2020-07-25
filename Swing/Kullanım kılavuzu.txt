@@ -1,0 +1,78 @@
+buttons = actionPerformed
+
+Toggle Button : isSelected --> 
+itemStateChanged  >
+stateChanged      > Kullanılabilecek Fonksiyonlar....
+actionPerformed   >
+
+FormattedTextField :
+properties > FormatterFactory > mask > custom > ***
+# sayılar için
+A (All) hersey için
+U (Upper) girileni Büyütür.
+L (Lower) girileni Küçültür.
+
+text fields : setText , getText , setForeground
+password fields : new String (getPassword);
+
+TextPane v EditorPane : 
+Text Pane Otomatik Alt satıra inMEZ 
+Editor Pane Otomatik Alt Satira iner
+scrol pane yi netbeans ekler otomatik;
+
+check box : isSelected
+
+radio box : isSelected
+button group : properties > button group **Select the created group**
+
+combo box : ıtemStateChanged***
+getSelectedItem
+getSelectedIndex
+combobox.setModel(new DefaultComboBoxModel<>(String[] a));
+
+table : DefaultTableModel x = (DefaultTableModel) y.getModel();
+x.addRow(Object[]); //Row eklemek için
+x.removeRow(int a); //Row Silmek için
+y.getSelectedRow(); //Secili rowu almak için **return int**
+x.setValueAt(Object,row,columns); //row güncellemek için
+x.getValueAt(row,columns); //Row Bilgilerini almak için
+y.getRowCount();
+
+progress bar : getValue(int);
+setValue(int);
+
+list : DefaultListModel x = new DefaultListModel(); //Under the initComponents();
+y.setModel(x);
+x.addElement();
+x.removeElementAt(i);
+x.getSize();
+y.getSelectedIndex(); //Secili satırı almak için **return int**
+
+spinner : getValue --> return Object Integer.valueOf(spinner.getValue().toString());
+Properties --> Model***
+
+String x = JOptionPane.showInputDialog();
+JOptionPane.showMessageDialog();
+int x = JOptionPane.showComfirmDialog();
+x == JOptionPane.YES,NO,CANCEL_OPTION
+
+Opaque = Saydamlik ayari;
+MyButton.setIcon(new ImageIcon(getClass().getResource("/Images/mavi.png")));
+denemeText.setFont(new java.awt.Font("SansSerif", 1, 14));
+horizontalAlignment --> Hizalama
+toolTipText --> istenilen yerde bekleyince yazı gösterir...
+
+Mouse : 
+Entered - Mouse Nesne Ustune gelme anı
+Pressed - Mouse Basılı Tutma anı
+Released - Mouse basılı tutmanın bırakılma anı
+Exited - Mouse Nesne Uzerinden Ayrılma Anı
+Clicked - Mouse Tıklama anı
+
+Key : 
+Pressed - Tuş basma anı
+Released - Tus Bırakma anı (Anlık işlemlerde kullanılır)
+Typed - ***
+
+
+// .trim() = Bir metinde en ve arka boslugu siler.
