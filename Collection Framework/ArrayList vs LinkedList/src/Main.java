@@ -10,7 +10,7 @@ public class Main
     {
         /*
         SONA DEĞER EKLEMEDE ARRAYLIST HIZLI FAKAT ORTALARA BASA VS DEGER EKLENIRSE
-        ARAYLIST TUM LISTEYI KAYDIRMAK ZORUNDA KALDIGI IÇIN YAVAS ÇAILISIYOR.
+        ARAYLIST TUM LISTEYI KAYDIRMAK ZORUNDA KALDIGI IÇIN YAVAS ÇALISIYOR.
         */
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
