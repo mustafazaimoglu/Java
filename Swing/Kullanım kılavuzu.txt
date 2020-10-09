@@ -18,7 +18,7 @@ password fields : new String (getPassword);
 TextPane v EditorPane : 
 Text Pane Otomatik Alt satıra inMEZ 
 Editor Pane Otomatik Alt Satira iner
-scrol pane yi netbeans ekler otomatik;
+scroll pane yi netbeans ekler otomatik;
 
 check box : isSelected
 
