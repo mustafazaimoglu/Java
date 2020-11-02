@@ -1,4 +1,0 @@
-Down
-KuruKafa
-Up
-Sekil
