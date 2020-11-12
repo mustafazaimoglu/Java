@@ -66,7 +66,6 @@ public class Dunya extends JPanel implements ActionListener, MouseMotionListener
     @Override
     public void actionPerformed(ActionEvent e)
     {
-        
         if (isOver() == true)
         {
             JOptionPane.showMessageDialog(this, "Skor : " + skor + "\n" + skor +" Tane Toptan Kaçıldı", "Game Over", 0);
