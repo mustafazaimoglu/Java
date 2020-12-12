@@ -10,6 +10,8 @@ import java.util.logging.Logger;
 
 public class Main
 {
+
+
     private static ArrayList<Integer> icerik = new ArrayList<>();
     
     public static void oku()
