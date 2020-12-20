@@ -3,7 +3,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        String words[] = {"Ayşe","Mustafa","Çiğdem","Mehmet","Ege","Xantares","Büsra","Zafer","Patriot","Ülkü","Tarık","Pınar","Ramazan","Woxic"};
+        String words[] = {"Ayşe","Mustafa","Çiğdem","Ali","Aliye","Alim","Mehmet","Ege","Xantares","Büsra","Zafer","Patriot","Ülkü","Tarık","Pınar","Ramazan","Woxic"};
         
         RadixWordSort rws = new RadixWordSort(words);
             
