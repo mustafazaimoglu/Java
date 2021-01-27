@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class MainFrame extends JFrame
 {
     private final int FRAMEX = 1000;
-    private final int FRAMEY = 600;
+    private final int FRAMEY = 610;
     
     public MainFrame(String title) throws HeadlessException
     {

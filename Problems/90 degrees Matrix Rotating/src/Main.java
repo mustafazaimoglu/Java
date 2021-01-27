@@ -6,18 +6,18 @@ public class Main
     {
         int n = matrix.length - 1;
         int c = matrix.length - 1;
-        
-        for (int i = 0; i < matrix.length/2; i++)
+
+        for (int i = 0; i < matrix.length / 2; i++)
         {
             int p = 0;
             for (int j = i; j < c; j++)
             {
                 int t1 = matrix[j][n];
                 matrix[j][n] = matrix[i][j];
-                int t2 = matrix[n][n-p];
-                matrix[n][n-p] = t1;
-                t1 = matrix[n-p][i];
-                matrix[n-p][i] = t2;
+                int t2 = matrix[n][n - p];
+                matrix[n][n - p] = t1;
+                t1 = matrix[n - p][i];
+                matrix[n - p][i] = t2;
                 matrix[i][j] = t1;
                 p++;
             }
@@ -61,7 +61,7 @@ public class Main
                 31, 32, 33, 34, 35
             }
         };
-        
+
 //        int matrix[][] =
 //        {
 //            {
@@ -77,7 +77,6 @@ public class Main
 //                13,14,15,16
 //            }
 //        };
-
         for (int i[] : matrix)
         {
             for (int j : i)
