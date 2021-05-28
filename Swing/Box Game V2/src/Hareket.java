@@ -28,7 +28,7 @@ public class Hareket implements MouseMotionListener, MouseListener, ActionListen
 
     public Hareket(Component[] paneller)
     {
-        int sonuc = JOptionPane.showConfirmDialog(null, "Baslamak İçin Hazırmısın?", "Başla", 1);
+        int sonuc = JOptionPane.showConfirmDialog(null, "Baslamak için hazır mısın?", "Başla", 1);
         
         if (sonuc == JOptionPane.NO_OPTION)
         {
