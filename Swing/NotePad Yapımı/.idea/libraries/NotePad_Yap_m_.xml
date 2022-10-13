@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NotePad_Yap_m_">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/NotePad_Yap_m_.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

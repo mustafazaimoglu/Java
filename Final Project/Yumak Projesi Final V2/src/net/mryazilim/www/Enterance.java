@@ -1,6 +1,6 @@
 /*
 02180201064 - Ramazan KAHRAMAN - 1A 
-02180201066 - Mustafa KUZ - 1A
+02180201066 - Mustafa ZAIMOĞLU - 1A
 */
 
 package net.mryazilim.www;

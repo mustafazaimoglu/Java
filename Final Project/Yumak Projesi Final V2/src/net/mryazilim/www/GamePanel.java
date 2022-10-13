@@ -168,7 +168,7 @@ public class GamePanel extends JPanel implements KeyListener, ActionListener
         super.paint(g);
 
         g.setColor(Color.CYAN);
-        g.drawRect(0, 0, 993, 500);  // oyun sınırlarını daha güzel görmek için bir dikdörtgen çiziyoruz 
+        g.drawRect(0, 1, 985, 500);  // oyun sınırlarını daha güzel görmek için bir dikdörtgen çiziyoruz 
 
         /*
         yumak.getWidth() + yumakKatsayi * yumakBoyutCarpani, yumak.getHeight() + yumakKatsayi * yumakBoyutCarpani
